@@ -97,7 +97,7 @@ box is the closest thing YOLO gives you to "where their feet are," which
 is what actually determines whether they're standing in the queue area.
 Box-center drifts up/down with how much of the person is visible in
 frame, which would make a standing person incorrectly test in/out of the
-ROI depending on box height alone.
+ROI depending on box height alone
 
 ## Tuning knobs (all in `main.py`'s `QueueVision(...)` call)
 
